@@ -38,6 +38,7 @@ import azure from '../../assets/corousel/azure.png';
 import nibe from '../../assets/corousel/nibe.png';
 import qopla from '../../assets/corousel/qopla.png';
 import theomano from '../../assets/theomanologo2.png';
+import Contactus from '../Contactus/Contactus';
 
 function Home() {
   return (
@@ -374,6 +375,7 @@ function Home() {
         </div>
         
       </section>
+      <Contactus />
 
       <section className="footer-cta">
         <div className="footer-cta-left">
@@ -472,7 +474,7 @@ function Home() {
             <a href=" "><span className="social-icon">LinkedIn</span></a>
           </div>
           <div className="copyright">
-            © 2025 All rights reserved by FIFTYFIVE TECHNOLOGIES
+            © 2025 All rights reserved by THEOMANO
           </div>
         </div>
       </footer>
