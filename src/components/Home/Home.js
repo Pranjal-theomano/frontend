@@ -150,7 +150,7 @@ function Home() {
         <div className="services-cards">
           <div className="service-card-large">
             <img src={remoteTeam} alt="Remote Team Extension" />
-            <h3>Remote Team Extension</h3>
+            <h3>Remote Team</h3>
             <p>Stay ahead of the curve in-depth market analysis.</p>
             <button className="arrow-btn">↗</button>
           </div>
