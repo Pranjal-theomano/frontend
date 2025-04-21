@@ -37,6 +37,8 @@ import gcp from '../../assets/corousel/gcp.png';
 import azure from '../../assets/corousel/azure.png';
 import nibe from '../../assets/corousel/nibe.png';
 import qopla from '../../assets/corousel/qopla.png';
+import theomano from '../../assets/theomanologo2.png';
+import Contactus from '../Contactus/Contactus';
 
 function Home() {
   return (
@@ -148,7 +150,7 @@ function Home() {
         <div className="services-cards">
           <div className="service-card-large">
             <img src={remoteTeam} alt="Remote Team Extension" />
-            <h3>Remote Team Extension</h3>
+            <h3>Remote Team</h3>
             <p>Stay ahead of the curve in-depth market analysis.</p>
             <button className="arrow-btn">↗</button>
           </div>
@@ -373,7 +375,109 @@ function Home() {
         </div>
         
       </section>
+      <Contactus />
+
+      <section className="footer-cta">
+        <div className="footer-cta-left">
+          <img src={theomano} alt="FiftyFive Technologies" className="footer-logo" />
+          <p className="footer-description">
+            We provide the expertise and support to propel your business forward.
+          </p>
+          <div className="footer-email-form">
+            <input type="email" placeholder="Enter Your Email" className="email-input" />
+            <button className="get-started-btn">Get Started</button>
+          </div>
+        </div>
+
+        <div className="footer-cta-right">
+          <h2 className="footer-title">Let's get started on something great</h2>
+          <p className="footer-subtitle">
+            Our team of IT experts looks forward to meeting with you and providing valuable insights tailored to your business.
+          </p>
+          <button className="appointment-btn">Get an appointment now</button>
+          
+          <div className="stats-container">
+            <div className="stat-item">
+              <h3>5</h3>
+              <p>Hours</p>
+              <span>Response Time</span>
+            </div>
+            <div className="stat-item">
+              <h3>91%</h3>
+              <p>Client Retention</p>
+            </div>
+            <div className="stat-item">
+              <h3>300+</h3>
+              <p>IT Professionals</p>
+            </div>
+          </div>
+        </div>
+      </section>
       
+      <footer className="main-footer">
+        <div className="footer-content">
+          <div className="footer-column">
+            <h3>Services</h3>
+            <ul>
+              <li>Prompt Engineering</li>
+              <li>Game Deveopemnt</li>
+              <li>MVP Development</li>
+              <li>Web 3.0 & IOT</li>
+              <li>Remote Team</li>
+              <li>DevOps</li>
+            </ul>
+          </div>
+
+          <div className="footer-column">
+            <h3>Hire a developer</h3>
+            <ul>
+              <li>Front-end</li>
+              <li>Back-end</li>
+              <li>Mobile</li>
+              <li>Cloud & Platforms</li>
+            </ul>
+          </div>
+
+          <div className="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>About Us</li>
+              <li>Blog</li>
+              <li>Careers</li>
+              <li>Case Studies</li>
+              <li>Contact Us</li>
+              <li>Privacy Policy</li>
+              <li>Terms of Use</li>
+            </ul>
+          </div>
+
+          <div className="footer-column">
+            <h3>Our Offices</h3>
+            <div className="office-locations">
+              <div className="location">
+                <span className="country">INDIA:</span> 37B - Thinkvalley , Sector 32 Gurgaon Haryana - 122002
+              </div>
+              <div className="location">J-2, Seema Sandesh, Jaipur Rajasthan 302004</div>
+              <div className="location">Incuspaze Co-Work, 408, 4th Floor, Apollo Premier, Indore (MP) 452010</div>
+              <div className="location">
+                <span className="country">UK:</span> Wework, 33 Queen Street, London, England, EC4R 1AP
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+          <div className="social-links">
+            <a href=" "><span className="social-icon">YouTube</span></a>
+            <a href=" "><span className="social-icon">Twitter</span></a>
+            <a href=" "><span className="social-icon">Instagram</span></a>
+            <a href=" "><span className="social-icon">LinkedIn</span></a>
+          </div>
+          <div className="copyright">
+            © 2025 All rights reserved by THEOMANO
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
