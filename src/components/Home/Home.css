@@ -649,7 +649,7 @@
 .footer-cta {
   display: flex;
   justify-content: space-between;
-  padding: 4rem; 
+  padding: 4rem;
   background-color: #111;
   color: white;
   gap: 2rem;
@@ -847,5 +847,126 @@
   
   .social-links {
     justify-content: center;
+  }
+}
+
+.footer-cta {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  background-color: #111;
+  color: white;
+  gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .footer-cta {
+    padding: 3rem 2rem;
+  }
+  
+  .footer-title {
+    font-size: 2rem;
+  }
+  
+  .footer-logo {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-cta {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+  }
+
+  .footer-email-form {
+    flex-direction: column;
+  }
+
+  .email-input, .get-started-btn {
+    width: 100%;
+    padding: 0.75rem;
+  }
+
+  .stats-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .stat-item {
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+  }
+
+  .stat-item:last-child {
+    border-bottom: none;
+  }
+}
+
+/* Main Footer Responsive Updates */
+.main-footer {
+  background-color: #111;
+  color: #fff;
+  padding: 3rem 2rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-column {
+  min-width: 0; /* Prevents overflow on small screens */
+}
+
+.footer-column h3 {
+  font-size: 1.125rem;
+  margin-bottom: 1.25rem;
+}
+
+.office-locations .location {
+  font-size: 0.875rem;
+  word-wrap: break-word;
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 640px) {
+  .main-footer {
+    padding: 2rem 1rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .footer-column {
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-links {
+    width: 100%;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
   }
 }
