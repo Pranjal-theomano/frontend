@@ -375,8 +375,9 @@ function Home() {
         </div>
         
       </section>
+      <section id="contact-section">
       <Contactus />
-
+      </section>
       <section className="footer-cta">
         <div className="footer-cta-left">
           <img src={theomano} alt="FiftyFive Technologies" className="footer-logo" />
